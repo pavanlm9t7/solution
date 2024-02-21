@@ -59,7 +59,7 @@ int main(void){
 
 bool checkPacket(string s) {
     int n = s.find(' ');
-    if((s.size()<4) || (s.size()!= 3 + (s.at(2)-'0')) || (n != 0)){
+    if((s.size()<4) || (s.size()!= 3 + (s.at(2)-'0')) || (n == 0)){
         return false;
     }else{
         return true;
