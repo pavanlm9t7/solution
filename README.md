@@ -4,8 +4,8 @@ Solution for monitoring devices using unique names.
 # How should the data shared by the Devices should be:
 Data = System ID + Device Unique Name + size of the measurement characters + measurement.
 
-# Example
-## In this solution, there are 3 devices(A, B, C) to be monitored for the system(#).
+### Example
+### In this solution, there are 3 devices(A, B, C) to be monitored for the system(#).
 Follow the data,
 Enter #A31.2
 The system would read the next 3 characters from index 2 and store measurements in double format under device A by incrementing the times of data entered for device A.
