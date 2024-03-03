@@ -20,3 +20,5 @@ Updates the output accordingly if the variables are changed.
 # How to use code?
 1. Clone the repo to the working directory.
 2. Run solution.cpp, enter the string referring to the example, and observe the change in the output.
+3. Enter the input and check the output tracking the measurement of the devices.
+
